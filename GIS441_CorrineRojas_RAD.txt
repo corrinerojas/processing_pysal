@@ -67,3 +67,16 @@ End of first week of December: Presentation and release.
     2. Repositories
         1. URL for project repository
 https://github.com/corrinerojas/processing_pysal
+
+Edit: 12/08/16
+
+Tests are Located at: 
+Knox Test: https://github.com/corrinerojas/processing_pysal/blob/master/knox_test.py
+Modified Knox Test: https://github.com/corrinerojas/processing_pysal/blob/master/modifiedknox_test.py
+Jacquez Test: https://github.com/corrinerojas/processing_pysal/blob/master/jacquez_test.py
+Mantel Test: https://github.com/corrinerojas/processing_pysal/blob/master/mantel_test.py
+
+With updated pysalprovider to commit additions into processing_pysal: https://github.com/corrinerojas/processing_pysal/blob/master/pysalprovider.py
+
+
+Thank you! 
