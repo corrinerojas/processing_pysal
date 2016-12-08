@@ -3,6 +3,10 @@ from moran import Moran
 from moranrate import MoranRate
 from moranlocal import MoranLocal
 from moranlocalrate import MoranLocalRate
+from knox_test import KnoxTest
+from modifiedknox_test import ModifiedKnoxTest
+from mantel_test import MantelTest
+from jacquez_test import JacquezTest
 
 class pysalProvider(AlgorithmProvider):
 
@@ -11,8 +15,8 @@ class pysalProvider(AlgorithmProvider):
 
         self.activate = False
 
-        self.alglist = [Moran(),MoranRate(),
-                        MoranLocal(),MoranLocalRate()]
+        self.alglist = [Moran(),MoranRate(), KnoxTest(), ModifiedKnoxTest(),
+                        MantelTest(), JacquezTest(), MoranLocal(),MoranLocalRate()]
         for alg in self.alglist:
             alg.provider = self
 
